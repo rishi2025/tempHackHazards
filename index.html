@@ -3,40 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maester On Duty</title>
     <link href="style.css" rel="styleSheet">
-    <title>Login</title>
 </head>
 <body>
-    <div class="menu">
-        <p class="title">MAESTER ON DUTY</p>
-        <div class="buttons">
-            <a href="#about"><button class="btn">Home</button> </a>
-            <button class="btn">About</button>
-            <button class="btn">Donate</button>
-            <button class="btn">Contact</button>
+    <div class="main">
+        <div class="menu">
+            <p class="title">MAESTER ON DUTY</p>
+            <div class="buttons">
+                <a href="#about"><button class="btn">Home</button> </a>
+                <button class="btn">About</button>
+                <button class="btn">Donate</button>
+                <button class="btn">Contact</button>
+            </div>
+            <button class="btn signin">Sign In</button>
         </div>
-        <button class="btn signin">Sign In</button>
+        <div class="svgSet">
+            <svg class="heart" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            <svg class="drip" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 11.5 1 C 8.857 1 6.588 3.462 6.588 6.105 C 6.588 9.876 11.5 16.105 11.5 16.105 C 11.5 16.105 16.412 9.876 16.412 6.105 C 16.412 3.462 14.143 1 11.5 1 Z"/>
+            </svg>
+            <svg class="rope" viewBox="1.026 0.87 292.4232 71.1989" xmlns="http://www.w3.org/2000/svg">
+                <path style="fill: transparent;" d="M 1.026 1.496 C 1.952 100.147 293.67 91.125 293.449 0.87"/>
+            </svg>
+        </div>
+        <div class="center">
+            <p class="heading">BLOOD <br> DONATION</p>
+            <p class="save">Saves Lives</p>
+            <p class="dots">...........</p>
+            <div class="together">
+                <p>Together, we're stronger.</p>
+            </div>
+            <p class="random">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora, iste explicabo <br> consequuntur distinctio amet. Iste nam mollitia quaerat, vero earum, eaque illo a eius dolor velit adipisci alias tempore?</p>
+            <div class="mainBtn">
+                <button class="bigBtn">Donate Now</button>
+                <button class="bigBtn">Need Blood</button>
+            </div>
+        </div>
     </div>
-    <img class="bg" src="login.png">
-    <div class="app">
-        <div class="task">
-            <div class="donor activeTask">DONOR</div>
-            <div class="giver">GIVER</div>
-        </div>
-        <form class="info" action="/login" method="POST">
-            <!-- <label for="role">Select your role:</label>
-            <select name="role" id="role">
-                <option value="donor">Donor</option>
-                <option value="hospital">Hospital</option>
-            </select><br> -->
-            <p class="hello">DONOR</p>
-            <label for="email">Email:</label>
-            <input type="email" name="email" required><br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" required><br>
-            <button class="bigBtn" type="submit">Login</button>
-        </form>
+    <div class="spikes">
+        <a name="about"></a>
+
+    </div>
+    <div class="donate">
+
     </div>
 </body>
 <script src="script.js"></script>
 </html>
+
